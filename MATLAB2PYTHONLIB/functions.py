@@ -61,7 +61,8 @@ def datenum_to_datetime(datenum):
         fecha = fecha.replace(microsecond=0)
         if fecha.second >= 30:
             fecha += datetime.timedelta(minutes=1)
-            fecha.replace(second=0)
+        
+        fecha.replace(second=0)
         fechas_convertidas.append(fecha)
 
     # Retorna las fechas convertidas como un array de numpy
