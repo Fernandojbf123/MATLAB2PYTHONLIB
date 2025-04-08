@@ -2,8 +2,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="MATLAB2PYTHONLIB",
-    version="0.2.5",
+    name="matlab2pythonlib",
+    version="0.2.6",
     packages=find_packages(),
     install_requires=[],
     author="BelloDev",

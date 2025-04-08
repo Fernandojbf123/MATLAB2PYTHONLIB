@@ -10,4 +10,7 @@ MATLAB2PYTHONLIB.egg-info/PKG-INFO
 MATLAB2PYTHONLIB.egg-info/SOURCES.txt
 MATLAB2PYTHONLIB.egg-info/dependency_links.txt
 MATLAB2PYTHONLIB.egg-info/top_level.txt
+matlab2pythonlib/__init__.py
+matlab2pythonlib/functions.py
+matlab2pythonlib/utils.py
 test/test_functions.py
